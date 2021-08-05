@@ -1,0 +1,136 @@
+html, body {
+  margin:0px;
+  height:100%;
+}
+
+#loading-screen-industry{
+  display: block;
+  margin: auto auto auto auto;
+}
+
+#sidebar{
+  background-color: #303030;
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  transition-timing-function: ease;
+  transition-property: width;
+  transition-duration: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+
+#main-div{
+  background-color: white;
+  height: 60px;
+  margin-left: 50px;
+}
+
+#mainbody{
+  background-color: white;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+#headernav{
+  background-color: #375a7f;
+  margin: 0;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#header-nav-wbdis{
+  position: relative;
+  font-size: x-large;
+  left: 20px;
+  top: 10px;
+  width: 90%;
+  display: inline-block;
+}
+
+
+#open-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  transition-timing-function: ease;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+#open-button:hover{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.nav-bar-options{
+  width: 230px;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 1px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.nav-bar-options:hover{
+  width: 230px;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 1px;
+  padding-left: 5px;
+  padding-top: 2px;
+  background-color: #444444;
+}
+
+.nav-bar-options-active{
+  width: 230px;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 1px;
+  padding-left: 5px;
+  padding-top: 2px;
+  background-color: #3498db;
+}
+
+.nav-bar-options-active:hover{
+  width: 230px;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 1px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.nav-bar-options-img{
+  height: 25px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.nav-bar-options-p{
+  width: 40%;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#page-content{
+  height: 92%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5eff1;
+}
